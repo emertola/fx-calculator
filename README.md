@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
 
 Please note: I used [exchangerate.host](https://exchangerate.host/) API instead, since the one that is provided on the pdf has limited access to the other endpoints.
-To be able to replicate and run this project, please clone this repo. Locate the cloned repo from your terminal by typing `cd /location/of/the/cloned/repo`. Once done, run `npm install` to download the dependencies and packaged used, then head on to running the development server.
+To be able to replicate and run this project, please clone this repo. Locate the cloned repo from your terminal by typing `cd location/of/the/cloned/repo` (e.g. `cd fx-calculator/`). Once done, run `npm install` to download the dependencies and packaged used, then head on to running the development server.
 
 ## Development server
 
