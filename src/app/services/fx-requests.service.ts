@@ -3,9 +3,6 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { environment as env } from 'src/environments/environment';
 
-interface Symbol {
-
-}
 
 @Injectable({
   providedIn: 'root'
@@ -17,12 +14,6 @@ export class FxRequestsService {
   ) { }
 
   public getSymbols(): Observable<{[key: string]: string}> {
-    // let params = new HttpParams();
-    // params = params.set('access_key', env.apiKey);
-
-    // return this.httpClient.get<{[key: string]: string}>(`${env.apiUrl}/symbols`, {
-    //   params
-    // });
     return this.httpClient.get<{[key: string]: string}>(`${env.apiUrl}/symbols`)
   }
 
